@@ -1,6 +1,6 @@
 # Diaphora for IDA Free/Pro
 
-Port of [joxeankoret/diaphora](https://github.com/joxeankoret/diaphora) (IDAPython) to the IDA C++ SDK, so it works in IDA Free/Pro 9.4+ without IDAPython (IDA Free does not have it). The SQLite database schema (version 3.4) and the SQL heuristics are those of the Python version. The port is based on Diaphora 3.4.1, commit [`de0eb92`](https://github.com/joxeankoret/diaphora/tree/de0eb920c1e54649bb3e7c4df5fa058b5c2cdc91) of the original repository.
+Port of [joxeankoret/diaphora](https://github.com/joxeankoret/diaphora) (IDAPython) to the IDA C++ SDK, so it works in IDA Free/Pro 9.5+ without IDAPython (IDA Free does not have it). The SQLite database schema (version 3.4) and the SQL heuristics are those of the Python version. The port is based on Diaphora 3.4.1, commit [`de0eb92`](https://github.com/joxeankoret/diaphora/tree/de0eb920c1e54649bb3e7c4df5fa058b5c2cdc91) of the original repository.
 
 ![The Partial matches chooser after diffing two builds of urlmon.dll in IDA Free, the rows colored by ratio](screenshots/show-result.png)
 
@@ -30,7 +30,7 @@ SQLite: by default the plugin links against `winsqlite3.dll`, which ships with W
 
 ## Install
 
-Copy `diaphora.dll` to the `plugins` folder of your IDA installation (e.g. `C:\Program Files\IDA Free 9.4\plugins\`, needs admin) or to `%APPDATA%\Hex-Rays\IDA Pro\plugins\`.
+Copy `diaphora.dll` to the `plugins` folder of your IDA installation (e.g. `C:\Program Files\IDA Free 9.5\plugins\`, needs admin) or to `%APPDATA%\Hex-Rays\IDA Pro\plugins\`.
 
 ## Usage
 

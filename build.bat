@@ -79,7 +79,7 @@ if errorlevel 1 (
 echo.
 echo [+] Build OK: %PROJECT_DIR%\bin\diaphora.dll
 echo     Copy it to your IDA plugins folder, e.g.:
-echo       copy "%PROJECT_DIR%\bin\diaphora.dll" "C:\Program Files\IDA Free 9.4\plugins\"
+echo       copy "%PROJECT_DIR%\bin\diaphora.dll" "C:\Program Files\IDA Free 9.5\plugins\"
 echo     or  %%APPDATA%%\Hex-Rays\IDA Pro\plugins\
 endlocal
 exit /b 0

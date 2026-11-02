@@ -18,7 +18,7 @@
 // diaphora-idafree - shared definitions
 //
 // Port of joxeankoret/diaphora (IDAPython) to the IDA C++ SDK (IDA Free/Pro
-// 9.4+), so it also works in IDA Free, which has no IDAPython.
+// 9.5+), so it also works in IDA Free, which has no IDAPython.
 #pragma once
 
 // allow the C runtime file/string helpers we use
